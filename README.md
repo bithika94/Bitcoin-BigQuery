@@ -20,7 +20,7 @@ Step 2 - Retrieve Bitcoin Pricing Data
 
 Step 2.1 - Installing the client library
 
-I used this commant for setting up Python Developement Environment
+I used this command for setting up Python Developement Environment
 pip install --upgrade google-cloud-bigquery
 
 Step 2.2 - Setting up authentication
