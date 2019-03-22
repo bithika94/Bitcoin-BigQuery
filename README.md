@@ -24,15 +24,19 @@ I used this commant for setting up Python Developement Environment
 pip install --upgrade google-cloud-bigquery
 
 Step 2.2 - Setting up authentication
-In the GCP Console, go to the Create service account key page.
-From the Service account list, select New service account.
-In the Service account name field, enter a name.
-From the Role list, select Project > Owner.
-Click Create. A JSON file that contains your key downloads to your computer.
-Provide authentication credentials to your application code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS
+
+1. In the GCP Console, go to the Create service account key page.
+2. From the Service account list, select New service account.
+3. In the Service account name field, enter a name.
+4. From the Role list, select Project > Owner.
+5. Click Create. A JSON file that contains your key downloads to your computer.
+6. Provide authentication credentials to your application code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS
 With command prompt:
 set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
+
 Step 2.3 - Using the client library
 	I have used the client library to connect Bigquery with Python
-# from google.cloud import bigquery
-# client = bigquery.Client()
+	
+	
+	# from google.com import bigquery
+	# client = bigquery.Client()
